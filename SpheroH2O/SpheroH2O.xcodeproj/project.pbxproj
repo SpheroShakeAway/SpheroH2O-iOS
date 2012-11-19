@@ -10,6 +10,9 @@
 		17640C2915F326760076A990 /* InstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17640C2715F326760076A990 /* InstructionsViewController.m */; };
 		17640C3315F327F30076A990 /* GameSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17640C3115F327F20076A990 /* GameSettingsViewController.m */; };
 		17640C3815F3280D0076A990 /* HomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17640C3615F3280B0076A990 /* HomeScreenViewController.m */; };
+		179D5F87165AA3CB00E82D5C /* [SH20]-OK-Button-Active-State-Retina_250x250.png in Resources */ = {isa = PBXBuildFile; fileRef = 179D5F84165AA3CB00E82D5C /* [SH20]-OK-Button-Active-State-Retina_250x250.png */; };
+		179D5F88165AA3CB00E82D5C /* [SH20]-OK-Button-Normal-State-Retina_250x250.png in Resources */ = {isa = PBXBuildFile; fileRef = 179D5F85165AA3CB00E82D5C /* [SH20]-OK-Button-Normal-State-Retina_250x250.png */; };
+		179D5F89165AA3CB00E82D5C /* [SH20]-Warning-Screen-Retina_960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = 179D5F86165AA3CB00E82D5C /* [SH20]-Warning-Screen-Retina_960x640.png */; };
 		17FF03FF15F3F3E000D70FFF /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FF03FE15F3F3E000D70FFF /* iPhone.storyboard */; };
 		17FF040115F3F40C00D70FFF /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FF040015F3F40C00D70FFF /* iPad.storyboard */; };
 		17FF050715F442DC00D70FFF /* Forward-Button-Active-State.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FF050315F442DC00D70FFF /* Forward-Button-Active-State.png */; };
@@ -118,6 +121,9 @@
 		17640C3115F327F20076A990 /* GameSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSettingsViewController.m; sourceTree = "<group>"; };
 		17640C3515F3280B0076A990 /* HomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreenViewController.h; sourceTree = "<group>"; };
 		17640C3615F3280B0076A990 /* HomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreenViewController.m; sourceTree = "<group>"; };
+		179D5F84165AA3CB00E82D5C /* [SH20]-OK-Button-Active-State-Retina_250x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[SH20]-OK-Button-Active-State-Retina_250x250.png"; sourceTree = "<group>"; };
+		179D5F85165AA3CB00E82D5C /* [SH20]-OK-Button-Normal-State-Retina_250x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[SH20]-OK-Button-Normal-State-Retina_250x250.png"; sourceTree = "<group>"; };
+		179D5F86165AA3CB00E82D5C /* [SH20]-Warning-Screen-Retina_960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[SH20]-Warning-Screen-Retina_960x640.png"; sourceTree = "<group>"; };
 		17FF03FE15F3F3E000D70FFF /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPhone.storyboard; path = ../iPhone.storyboard; sourceTree = "<group>"; };
 		17FF040015F3F40C00D70FFF /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPad.storyboard; path = ../iPad.storyboard; sourceTree = "<group>"; };
 		17FF050315F442DC00D70FFF /* Forward-Button-Active-State.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward-Button-Active-State.png"; sourceTree = "<group>"; };
@@ -254,6 +260,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		179D5F83165AA3CB00E82D5C /* 6-[SH20]-Warning-Screen */ = {
+			isa = PBXGroup;
+			children = (
+				179D5F84165AA3CB00E82D5C /* [SH20]-OK-Button-Active-State-Retina_250x250.png */,
+				179D5F85165AA3CB00E82D5C /* [SH20]-OK-Button-Normal-State-Retina_250x250.png */,
+				179D5F86165AA3CB00E82D5C /* [SH20]-Warning-Screen-Retina_960x640.png */,
+			);
+			path = "6-[SH20]-Warning-Screen";
+			sourceTree = "<group>";
+		};
 		17FF040215F3F44500D70FFF /* ViewsControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +333,7 @@
 		17FF040915F3F64E00D70FFF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				179D5F83165AA3CB00E82D5C /* 6-[SH20]-Warning-Screen */,
 				17FF056515F44BE500D70FFF /* Default-Landscape@2x~ipad.png */,
 				17FF056615F44BE500D70FFF /* Default-Landscape~ipad.png */,
 				17FF056715F44BE500D70FFF /* Default-Portrait@2x~ipad.png */,
@@ -663,6 +680,9 @@
 				17FF056A15F44BE500D70FFF /* Default-Landscape~ipad.png in Resources */,
 				17FF056B15F44BE500D70FFF /* Default-Portrait@2x~ipad.png in Resources */,
 				17FF056C15F44BE500D70FFF /* Default-Portrait~ipad.png in Resources */,
+				179D5F87165AA3CB00E82D5C /* [SH20]-OK-Button-Active-State-Retina_250x250.png in Resources */,
+				179D5F88165AA3CB00E82D5C /* [SH20]-OK-Button-Normal-State-Retina_250x250.png in Resources */,
+				179D5F89165AA3CB00E82D5C /* [SH20]-Warning-Screen-Retina_960x640.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
