@@ -13,6 +13,7 @@
 		179D5F87165AA3CB00E82D5C /* [SH20]-OK-Button-Active-State-Retina_250x250.png in Resources */ = {isa = PBXBuildFile; fileRef = 179D5F84165AA3CB00E82D5C /* [SH20]-OK-Button-Active-State-Retina_250x250.png */; };
 		179D5F88165AA3CB00E82D5C /* [SH20]-OK-Button-Normal-State-Retina_250x250.png in Resources */ = {isa = PBXBuildFile; fileRef = 179D5F85165AA3CB00E82D5C /* [SH20]-OK-Button-Normal-State-Retina_250x250.png */; };
 		179D5F89165AA3CB00E82D5C /* [SH20]-Warning-Screen-Retina_960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = 179D5F86165AA3CB00E82D5C /* [SH20]-Warning-Screen-Retina_960x640.png */; };
+		179D5F8C165ABE6F00E82D5C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 179D5F8B165ABE6F00E82D5C /* Default-568h@2x.png */; };
 		17FF03FF15F3F3E000D70FFF /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FF03FE15F3F3E000D70FFF /* iPhone.storyboard */; };
 		17FF040115F3F40C00D70FFF /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FF040015F3F40C00D70FFF /* iPad.storyboard */; };
 		17FF050715F442DC00D70FFF /* Forward-Button-Active-State.png in Resources */ = {isa = PBXBuildFile; fileRef = 17FF050315F442DC00D70FFF /* Forward-Button-Active-State.png */; };
@@ -124,6 +125,7 @@
 		179D5F84165AA3CB00E82D5C /* [SH20]-OK-Button-Active-State-Retina_250x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[SH20]-OK-Button-Active-State-Retina_250x250.png"; sourceTree = "<group>"; };
 		179D5F85165AA3CB00E82D5C /* [SH20]-OK-Button-Normal-State-Retina_250x250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[SH20]-OK-Button-Normal-State-Retina_250x250.png"; sourceTree = "<group>"; };
 		179D5F86165AA3CB00E82D5C /* [SH20]-Warning-Screen-Retina_960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "[SH20]-Warning-Screen-Retina_960x640.png"; sourceTree = "<group>"; };
+		179D5F8B165ABE6F00E82D5C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		17FF03FE15F3F3E000D70FFF /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPhone.storyboard; path = ../iPhone.storyboard; sourceTree = "<group>"; };
 		17FF040015F3F40C00D70FFF /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPad.storyboard; path = ../iPad.storyboard; sourceTree = "<group>"; };
 		17FF050315F442DC00D70FFF /* Forward-Button-Active-State.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward-Button-Active-State.png"; sourceTree = "<group>"; };
@@ -487,6 +489,7 @@
 		81EE34321491452A00132035 = {
 			isa = PBXGroup;
 			children = (
+				179D5F8B165ABE6F00E82D5C /* Default-568h@2x.png */,
 				17FF040815F3F61700D70FFF /* Loading Screens */,
 				17FF040715F3F60200D70FFF /* Icons */,
 				81EE344D1491452A00132035 /* SpheroH2O */,
@@ -683,6 +686,7 @@
 				179D5F87165AA3CB00E82D5C /* [SH20]-OK-Button-Active-State-Retina_250x250.png in Resources */,
 				179D5F88165AA3CB00E82D5C /* [SH20]-OK-Button-Normal-State-Retina_250x250.png in Resources */,
 				179D5F89165AA3CB00E82D5C /* [SH20]-Warning-Screen-Retina_960x640.png in Resources */,
+				179D5F8C165ABE6F00E82D5C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -808,8 +812,8 @@
 		81EE346E1491452B00132035 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Juan Moreno";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qays Poonawala (9749H58Z54)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Qays Poonawala (9749H58Z54)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SensorStreaming/Frameworks\"",
@@ -828,7 +832,8 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = SpheroH2O;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "12B61F37-81B9-47AA-B16F-B18555927E86";
+				PROVISIONING_PROFILE = "28797086-D749-4758-9762-61F2C177554E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "28797086-D749-4758-9762-61F2C177554E";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
